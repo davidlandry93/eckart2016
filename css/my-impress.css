@@ -1,0 +1,82 @@
+
+body {
+    font-family: 'Raleway', serif;
+    font-size: 30px;
+}
+
+.impress-supported .fallback-message {
+    display: none;
+}
+
+.hint {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    animation: fadeout 2s linear forwards;
+    opacity: 0;
+
+    display: hidden;
+}
+
+@keyframes fadeout {
+    0% { opacity: 1 }
+    100% { opacity: 0}
+}
+
+.impress-supported .hint {
+    display: block;
+    opacity: 1;
+}
+
+.overview {
+    display: hidden;
+}
+
+.slide {
+    display: block;
+
+    width: 900px;
+    height: 700px;
+    padding: 40px 60px;
+
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+
+    color: rgb(102, 102, 102);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+}
+
+.title {
+    height: 800px;
+    text-align: center;
+}
+
+.title img {
+    width: 400px;
+    height: auto;
+}
+
+.title h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+.authors {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.date {
+    font-size: 80%;
+}
+
+
+#objective {
+    width: 1000px;
+}
+
+#objective h2 {
+}
